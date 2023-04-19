@@ -1,0 +1,12 @@
+void aggiorna_vicini(int);
+void check_register_req(int, int);
+int controlla_data(char*, char*);
+int controllo_validita_giorni(int, int);
+void keep_flooding(int, char, int, int, int, int);
+void ottieni_registri_aggr_vicino(int , int);
+void req_register_flood(int, int, int,int,int, int, int );
+void send_aggr(int);
+void send_answer_flood(int , int , int ,int ,int , int , int);
+void send_daily_register(int);
+void start_flooding(int , char , int , int, int, int);
+void update_with_entry(struct daily_register* , char, int );
